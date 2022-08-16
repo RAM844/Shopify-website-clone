@@ -15,7 +15,7 @@
 - I now have a strong understanding of tailwind CSS classes after completing this Project. Tailwind CSS makes life much easier.
 
 ## Time taken
-- It took me around `` four hours `` Since this was my second tailwind project, I relied on the tailwind CSS docs to find classes, which took some time.
+- It took me around `` five hours `` Since this was my second tailwind project, I relied on the tailwind CSS docs to find classes, which took some time.
 
 
 
