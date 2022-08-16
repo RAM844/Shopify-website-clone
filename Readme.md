@@ -20,7 +20,7 @@
 
 
 ## Links
-- [live demo](https://shopify-clone-by-shriram.netlify.app/#)
+- [live demo](https://shopify-clone-by-shriram.netlify.app/)
 - [source](https://github.com/RAM844/Shopify-website-clone)
 
 

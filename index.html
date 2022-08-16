@@ -28,7 +28,7 @@
             overflow-x: hidden;
         }
         *{
-
+            overflow-x: hidden;
             transition: 800ms;
         }
       </style>
@@ -36,10 +36,10 @@
 </head>
 <body >
     <!-- nav bar starts  -->
-    <nav class="fixed top-0 w-[100vw] h-[10vh] z-50 bg-heroBG  p-5   body-font flex flex-row justify-between  ">
+    <nav class="fixed top-0 w-[100vw] h-[10vh] z-50 bg-heroBG  px-5   body-font flex flex-row justify-between  ">
         <div class=" md:ml-16 ml-0 flex   flex-row ">  
-          <a class="flex title-font font-medium items-center   md:mb-0">
-            <img src="./assets/logo.png" height="70px" width="120px" alt="logo">
+          <a class="flex title-font font-medium  items-center   md:mb-0">
+            <img src="./assets/logo.png" class="" height="70px" width="120px" alt="logo">
           </a>
           <nav class=" md:ml-10 text-lg lg:flex hidden items-center  justify-center">
             <a class="mr-5 text-gray-700 hover:text-black cursor-pointer ml-1 font-medium">Start <i class="fa-solid fa-angle-down text-sm"></i></a>
@@ -75,13 +75,13 @@
             <p class="mb-8 text-gray-500 text-lg md:mt-8 leading-relaxed">
                 Try one of the most powerful platforms on the market for free. No technical knowledge needed.
             </p>
-            <div class="flex w-full   items-center md:justify-between justify-center align-center">
-                <div class="   lg:w-full xl:w-1/2 w-2/4">
+            <div class="flex w-full md:flex-row gap-y-2  flex-col  items-center md:justify-between justify-center align-center">
+                <div class=" overflow-visible  lg:w-full xl:w-1/2 w-2/4">
                   <input  type="email" 
                   placeholder="Enter your email addres" id="hero-field" name="hero-field" 
-                  class="overflow-y-visible md:w-[140%] bg-white rounded border  border-[#008060]    focus:border-2 text-base outline-none text-gray-700  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  class="overflow-y-visible md:w-[140%] w-[100%] bg-white rounded border  border-[#008060]    focus:border-2 text-base outline-none text-gray-700  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                 </div>
-                <button class=" font-bold inline-flex text-lg  text-white border-0 py-2 px-4 bg-buttonCLR  hover:bg-[#1d5d50]  rounded shaddow-lg shaddow- mt-4 md:mt-0">
+                <button class=" font-bold inline-flex mt-5 text-lg  text-white border-0 py-2 px-4 bg-buttonCLR  hover:bg-[#1d5d50]  rounded shaddow-lg shaddow md:mt-0">
                     Try for free
                   </button>
               </div>
@@ -219,7 +219,7 @@
 <!-- sell everything section  -->
 <section class=" mx-16 mt-24 body-font">
     <h1 class="text-center text-4xl">With you wherever you’re going</h1>
-    <p class="text-center text-lg w-[50%] mt-3 text-[#6b7177] mx-auto">One platform with all the ecommerce and point of sale features you need to start, run, and grow your business.</p>
+    <p class="text-center text-lg md:w-[50%] mt-3 text-[#6b7177] mx-auto">One platform with all the ecommerce and point of sale features you need to start, run, and grow your business.</p>
     <div class="container mx-auto flex px-5 py-8 pt-10 md:flex-row flex-col items-center">
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
         <img src="./assets/sell-everything.png" alt="sell image">
@@ -274,9 +274,8 @@
     </div>
   </section>
   <!-- Explore more from Shopify in India section -->
- 
   <section class="h-[90vh] md:mt-20 flex flex-col justify-center items-start bg-[#f3fcf6] ">
-    <h1 class="font- text-center md:ml-16 mb-10 text-4xl text-[#004c3e] mx-auto overflow-hidden">
+    <h1 class="font- text-center md:ml-16 mb-10 text-4xl text-[#004c3e] mx-auto md:overflow-hidden">
         Explore more from Shopify in India
     </h1>
     <section class="  body-font  mx-16 my-0 ">
@@ -299,7 +298,7 @@
       </section>
   </section>
 
-  <section class=" container mx-16 mt-10 flex flex-col text-center md:text-left">
+  <section class=" container md:mx-16 mt-10 flex flex-col text-center md:text-left">
     <h1 class="text-center font-normal md:text-left text-[#212326]  text-3xl">Empowering independent business <br> owners everywhere
     </h1>
     <h1 class="mt-8 text-center md:text-left  text-2xl">Millions of businesses in <span class="font-bold">175 countries</span>  around the world have
@@ -311,7 +310,7 @@
         <i class="hover:ml-2 py-auto  fa-solid fa-arrow-right-long text-center my-auto"></i>
     </div> 
     <img src="./assets/globe-full.png" class="hidden md:block" alt="">
-    <img src="./assets/globe-half.png" width="400px" alt="" class="mx-auto sm:hidden block">
+    <img src="./assets/globe-half.png" width="210px" alt="" class="mx-auto sm:hidden block">
 
 
   </section>
@@ -457,9 +456,9 @@
 
 <!-- footer  -->
 <footer class="bg-[#002e25] body-font">
-    <div class="container px-2 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="container px-2 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-wrap flex-wrap flex-col">
       <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first mx-auto">
-        <div class="lg:w-[16%] md:w-1/4 1/2  px-4">
+        <div class="lg:w-[16%] md:w-1/2   px-4">
           <h2 class="title-font font-medium text-white text-base mb-3">Online Store</h2>
           <nav class="list-none mb-10">
             <li>
@@ -479,7 +478,7 @@
               </li>
           </nav>
         </div>
-        <div class="lg:w-[16%] md:w-1/4 1/2   px-6">
+        <div class="lg:w-[16%] md:w-1/2    px-6">
             <h2 class="title-font font-medium text-white text-base mb-3"> <br> </h2>
             <nav class="list-none mb-10">
               <li>
@@ -499,7 +498,7 @@
                 </li>
             </nav>
           </div>
-          <div class="lg:w-[16%] md:w-1/4 1/2  px-6">
+          <div class="lg:w-[16%] md:w-1/2   px-6">
             <h2 class="title-font font-medium text-white text-base mb-3"> <br> </h2>
             <nav class="list-none mb-10">
               <li>
@@ -519,7 +518,7 @@
                 </li>
             </nav>
           </div>
-          <div class="lg:w-[16%] md:w-1/4 1/2  px-6">
+          <div class="lg:w-[16%] md:w-1/2   px-6">
             <h2 class="title-font font-medium text-white text-base mb-3">POINT OF SALE</h2>
             <nav class="list-none mb-10">
               <li>
@@ -530,7 +529,7 @@
               </li>
             </nav>
           </div>
-          <div class="lg:w-[16%] md:w-1/4 1/2  px-6">
+          <div class="lg:w-[16%] md:w-1/2   px-6">
             <h2 class="title-font font-medium text-white text-base mb-3">Support</h2>
             <nav class="list-none mb-10">
               <li>
@@ -568,7 +567,7 @@
                   </li>
             </nav>
           </div>
-          <div class="lg:w-[16%] md:w-1/4 1/2  px-6">
+          <div class="lg:w-[16%] md:w-1/2   px-6">
             <h2 class="title-font font-medium text-white text-base mb-3">Shopify</h2>
             <nav class="list-none mb-10">
               <li>
@@ -598,8 +597,8 @@
       </div>
     </div>
     <div class= "border-t-gray-700 border-2 px-0 mx-0 w-[100vw] ">
-      <div class="container bg-[#002e25]  mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <span class="inline-flex text-xl text-white sm:mt-0 mt-2 justify-center sm:justify-end">
+      <div class=" bg-[#002e25]  mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <span class="inline-flex text-xl text-white sm:mt-0 mx-2 justify-center sm:justify-end">
             <i class="fa-brands fa-facebook mx-3"></i>
             <i class="fa-brands fa-twitter mx-3"></i>
             <i class="fa-brands fa-youtube mx-3"></i>
