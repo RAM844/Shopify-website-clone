@@ -24,17 +24,18 @@
         }
       </script>
       <style>
-        body{
+        body{ 
             overflow-x: hidden;
         }
-        *{
+        *{ 
+          scroll-behavior: smooth;
             overflow-x: hidden;
             transition: 800ms;
         }
       </style>
       <link rel="shortcut icon" href="./assets/shopify-bag.png" type="image/x-icon">
 </head>
-<body >
+<body class="scroll-smooth" >
     <!-- nav bar starts  -->
     <nav class="fixed top-0 w-[100vw] h-[10vh] z-50 bg-heroBG  px-5   body-font flex flex-row justify-between  ">
         <div class=" md:ml-16 ml-0 flex   flex-row ">  
@@ -65,8 +66,9 @@
               </div>
           </div>
     </nav>
+    <a name="top"></a>
     <!-- hero section starts here  -->
-    <section class=" mt-[65px] pt-[20px] bg-heroBG w-[100vw] body-font">
+    <section  class="mt-[65px] pt-[20px] bg-heroBG w-[100vw] body-font">
         <div class=" md:ml-16 flex md:pl-5  md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class=" overflow-hidden sm:text-5xl font-bold text-4xl mb-4 text-[#004c3e] ">
@@ -103,18 +105,18 @@
             <h1 class="sm:text-4xl text-3xl font-medium  mb-2 text-white">
                 Bring your business online
             </h1>
-            <p class="my-2 text-left leading-relaxed text-base text-white">
+            <p class="my-2 md:text-left text-center leading-relaxed text-base text-white">
                 Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.
             </p>
             <div class="flex  items-center font-semibold text-lg text-white">
-                <a href="#" class="hover:mr-3 mr-1 text-center   ">Explore more examples </a>
+                <a href="#" class="hover:mr-3 md:mr-1 text-center mx-auto  ">Explore more examples </a>
                 <i class="hover:ml-2 py-auto  fa-solid fa-arrow-right-long text-center my-auto"></i>
             </div>  
           </div>
           <!-- cards start  -->
           <div class="flex flex-wrap gap-y-4 justify-between md:mx-16 mx-auto">
             <!-- card  -->
-            <div class="">
+            <div class=" md:mx-0 mx-auto">
               <div class=" p-0   flex flex-col  ">
                <img src="./assets/a1.jpg" class="" width="207px" height="412px" alt="card1">
                 </div>
@@ -122,7 +124,7 @@
                 <h2 class="text- text-white font-medium">Blue Tokai</h2>
             </div>
             <!-- card  -->
-            <div class="">
+            <div class=" md:mx-0 mx-auto">
                 <div class=" p-0   flex flex-col  ">
                  <img src="./assets/a2.jpg" class="" width="207px" height="412px" alt="card1">
                   </div>
@@ -130,7 +132,7 @@
                   <h2 class="text- text-white font-medium">Quirksmith</h2>
               </div>
               <!-- card  -->
-            <div class="">
+            <div class=" md:mx-0 mx-auto">
                 <div class=" p-0   flex flex-col  ">
                  <img src="./assets/a3.jpg" class="" width="207px" height="412px" alt="card1">
                   </div>
@@ -138,7 +140,7 @@
                   <h2 class="text- text-white font-medium">Crossbeats</h2>
               </div>
               <!-- card  -->
-            <div class="">
+            <div class=" md:mx-0 mx-auto">
                 <div class=" p-0   flex flex-col  ">
                  <img src="./assets/a4.jpg" class="" width="207px" height="412px" alt="card1">
                   </div>
@@ -164,9 +166,9 @@
           <!-- cards  -->
           <div class="flex md:mx-16 flex-wrap -m-4">
             <!-- card  -->
-            <div class="p-2 md:w-1/4">
+            <div class="p-2 md:w-1/4  ">
               <div class="flex w-full h-full  p- flex-col">
-                <div class="flex  flex-col justify-start items-start mb-3">
+                <div class="flex  flex-col justify-start  items-start mb-3">
                   <div class=" w-10 mb-6 mr-3 inline-flex items-center justify-left  text-white flex-shrink-0">
                     <svg class="fill-[#c0f0d0] " xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45"  height="45" ><path d="M41 6a3 3 0 00-3-3H7a3 3 0 00-3 3v31a3 3 0 003 3h6a1 1 0 001-1v-1a1 1 0 00-1-1H7V12h31v2a1 1 0 001 1h1a1 1 0 001-1V6zM11 9H7V6h4zm3 0V6h24v3zm27 12v3a1 1 0 01-1 1h-1a1 1 0 01-1-1v-2h-3v-3h4a2 2 0 012 2zm-.87 10.67L27.5 25.81a1.5 1.5 0 00-2.1 1.68l3.13 14.33A1.5 1.5 0 0029.79 43H30a1.5 1.5 0 001.33-.8l3.07-5.8 5.61-2a1.5 1.5 0 00.14-2.78zm-7.29 2.1a1.5 1.5 0 00-.83.71l-1.43 2.69L29 29.81l6.53 3zM21 33h-3v-5h3zm3 7v1a1 1 0 01-1 1h-3a2 2 0 01-2-2v-4h3v3h2a1 1 0 011 1zm8-18h-5v-3h5zm-12-3h4v3h-3v3h-3v-4a2 2 0 012-2z"></path></svg>
                   </div>
@@ -449,7 +451,7 @@
           </div>
   </section>
   <div class="mr-16 flex justify-end items-center font-semibold text-base text-[#00805f]">
-    <a href="#" class=" mr-1 ">Back to top </a>
+    <a href="#top" class="  mr-1 ">Back to top </a>
     <i class="hover:mb-3 py-auto  fa-solid fa-arrow-up text-center my-auto"></i>
     <i class=""></i>
 </div>
